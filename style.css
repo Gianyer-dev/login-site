@@ -96,6 +96,9 @@ body {
     justify-content: center;
     transition: all .2s ease-in-out;
 }
+.butao__large {
+    width: 100%;
+}
 
 .butao__small {
     visibility: hidden;
