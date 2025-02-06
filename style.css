@@ -97,7 +97,7 @@ body {
     transition: all .2s ease-in-out;
 }
 
-.butao__large {
+.butao__small {
     visibility: hidden;
     width: 0;
     height: 0;
@@ -220,6 +220,19 @@ body {
         width: 100%;
     }
 
+    .butao__large {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .butao__small {
+        display: flex;
+        visibility: visible;
+        width:auto;
+        height: auto;
+    }
+
     .butao__sign {
         padding: 0.5em 0;
         width: 100%;
@@ -236,11 +249,6 @@ body {
         visibility: visible;
         width: 100%;
         height: 100%;
-    }
-
-    .butao__small {
-        display: flex;
-        margin-bottom: 1em;
     }
 
     .butao__sign-with {
